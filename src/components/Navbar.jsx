@@ -2,6 +2,7 @@ import "../styles/Navbar.css";
 import {
  FaGithub,
  FaInstagram,
+ FaLinkedin,
  FaWhatsapp
 } from "react-icons/fa";
 
@@ -29,6 +30,9 @@ function Navbar() {
     </a>
     <a href="https://wa.me/918447374818" target="_blank" rel="noreferrer" title="WhatsApp">
       <FaWhatsapp />
+    </a>
+    <a href="https://www.linkedin.com/in/sarthak-singh-95/" target="_blank" rel="noreferrer" title="LinkedIn">
+      <FaLinkedin />
     </a>
    </div>
   </nav>

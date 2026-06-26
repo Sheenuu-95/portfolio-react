@@ -3,23 +3,23 @@ import "../styles/Projects.css";
 const projects = [
  {
   id: "01",
-  tag: "Web Development",
-  title: "Personal Portfolio",
-  description: "This portfolio website showcases a polished dark aesthetic with well-structured sections and smooth interactions.",
+  tag: "LMS",
+  title: "Online Learning Management System",
+  description: "A modern LMS platform featuring course management, student access, and progress tracking for online learning.",
   link: "https://github.com/Sheenuu-95"
  },
  {
   id: "02",
-  tag: "Coming Soon",
-  title: "Project Two",
-  description: "A future project currently in progress. Stay tuned for a new addition to the portfolio.",
+  tag: "Weather",
+  title: "Weather Forecast Website",
+  description: "A responsive weather forecast platform that provides real-time conditions, 7-day predictions, and city-based climate summaries.",
   link: "https://github.com/Sheenuu-95"
  },
  {
   id: "03",
-  tag: "Coming Soon",
-  title: "Project Three",
-  description: "More projects are in development, each built to explore new tools and real-world ideas.",
+  tag: "SMS",
+  title: "Society Management System",
+  description: "A society management system that handles member details, events, notices, and communication tools for residential communities.",
   link: "https://github.com/Sheenuu-95"
  }
 ];
@@ -32,6 +32,9 @@ function Projects() {
     Things I've<br />
     <em>built</em>
    </h2>
+   <p className="section-description">
+    Projects include an Online Learning Management System (LMS), a Hospital Management System, and a Weather Forecast Website.
+   </p>
 
    <div className="projects-grid">
     {projects.map((project) => (
@@ -41,11 +44,12 @@ function Projects() {
       <h3 className="project-title">{project.title}</h3>
       <p className="project-desc">{project.description}</p>
       <a href={project.link} target="_blank" rel="noreferrer" className="project-link">
-       View GitHub ?
+       View GitHub →
       </a>
      </div>
     ))}
    </div>
+
   </section>
  );
 }

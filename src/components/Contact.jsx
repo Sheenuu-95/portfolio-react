@@ -5,7 +5,7 @@ function Contact() {
   <section id="contact">
    <div className="section-label">Contact</div>
    <h2 className="section-title">
-    Let&apos;s<br />
+    Let's<br />
     <em>connect</em>
    </h2>
 
@@ -38,10 +38,10 @@ function Contact() {
       </div>
       <div className="form-group">
        <label htmlFor="message">Message</label>
-       <textarea id="message" rows="5" placeholder="What&apos;s on your mind?" required />
+       <textarea id="message" rows="5" placeholder="What's on your mind?" required />
       </div>
       <button type="submit" className="form-submit">
-       Send Message →
+       Send Message
       </button>
      </form>
     </div>
